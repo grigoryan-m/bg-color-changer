@@ -6,11 +6,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="C:\Users\User\Documents\javascript\bg-color-changer\javascript\main.js"></script>
     <title>Change my background color!</title>
     </head>
     <body>
-        <div class="container">
-            <input type="text" maxlength="7" placeholder="#000000"/>
-        </div>     
+        <div class="main">
+            <div class="container">
+                <span class="prefix">#</span>
+                <input type="text" placeholder="000000" maxlength="6"/>
+            </div>
+            <div class="submit">
+                    <button type="button" id="submit_button" onclick="clicked()" />Change background!</button>
+            </div>
+        </div>
     </body>
 </html>
